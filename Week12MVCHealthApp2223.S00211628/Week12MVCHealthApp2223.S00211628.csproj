@@ -199,6 +199,14 @@
     <Compile Include="Migrations\202212151725225_Initial Application User Database Setup.designer.cs">
       <DependentUpon>202212151725225_Initial Application User Database Setup.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202212151729448_MVC Initial Migration S00211628.cs" />
+    <Compile Include="Migrations\202212151729448_MVC Initial Migration S00211628.designer.cs">
+      <DependentUpon>202212151729448_MVC Initial Migration S00211628.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202212151736504_adding roles and users.cs" />
+    <Compile Include="Migrations\202212151736504_adding roles and users.designer.cs">
+      <DependentUpon>202212151736504_adding roles and users.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -288,6 +296,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202212151725225_Initial Application User Database Setup.resx">
       <DependentUpon>202212151725225_Initial Application User Database Setup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212151729448_MVC Initial Migration S00211628.resx">
+      <DependentUpon>202212151729448_MVC Initial Migration S00211628.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212151736504_adding roles and users.resx">
+      <DependentUpon>202212151736504_adding roles and users.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
