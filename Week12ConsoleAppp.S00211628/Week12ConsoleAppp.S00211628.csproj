@@ -5,18 +5,19 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AFF42B92-3357-46A6-B178-8152B2E79105}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Week12HealthDomain2223.S00211628</RootNamespace>
-    <AssemblyName>Week12HealthDomain2223.S00211628</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ProjectGuid>{D3346652-1336-4713-8348-713C3FBDE127}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Week12ConsoleAppp.S00211628</RootNamespace>
+    <AssemblyName>Week12ConsoleAppp.S00211628</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -26,6 +27,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -76,27 +78,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Migrations\202212151802503_adding title prop to doctors.cs" />
-    <Compile Include="Migrations\202212151802503_adding title prop to doctors.designer.cs">
-      <DependentUpon>202212151802503_adding title prop to doctors.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202212151810198_adding first name and second name to patients database.cs" />
-    <Compile Include="Migrations\202212151810198_adding first name and second name to patients database.designer.cs">
-      <DependentUpon>202212151810198_adding first name and second name to patients database.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202212151824291_addin patients.cs" />
-    <Compile Include="Migrations\202212151824291_addin patients.designer.cs">
-      <DependentUpon>202212151824291_addin patients.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202212151908360_test migration.cs" />
-    <Compile Include="Migrations\202212151908360_test migration.designer.cs">
-      <DependentUpon>202212151908360_test migration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\Doctor.cs" />
-    <Compile Include="Models\HealthContext.cs" />
-    <Compile Include="Models\Patient.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -104,18 +86,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202212151802503_adding title prop to doctors.resx">
-      <DependentUpon>202212151802503_adding title prop to doctors.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202212151810198_adding first name and second name to patients database.resx">
-      <DependentUpon>202212151810198_adding first name and second name to patients database.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202212151824291_addin patients.resx">
-      <DependentUpon>202212151824291_addin patients.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202212151908360_test migration.resx">
-      <DependentUpon>202212151908360_test migration.cs</DependentUpon>
-    </EmbeddedResource>
+    <ProjectReference Include="..\Week12HealthDomain2223.S00211628\Week12HealthDomain2223.S00211628.csproj">
+      <Project>{aff42b92-3357-46a6-b178-8152b2e79105}</Project>
+      <Name>Week12HealthDomain2223.S00211628</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

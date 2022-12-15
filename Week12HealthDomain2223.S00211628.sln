@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week12HealthDomain2223.S002
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week12MVCHealthApp2223.S00211628", "Week12MVCHealthApp2223.S00211628\Week12MVCHealthApp2223.S00211628.csproj", "{2AE0392A-F8F1-4D2B-B79B-005B23D8CCA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week12ConsoleAppp.S00211628", "Week12ConsoleAppp.S00211628\Week12ConsoleAppp.S00211628.csproj", "{D3346652-1336-4713-8348-713C3FBDE127}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2AE0392A-F8F1-4D2B-B79B-005B23D8CCA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AE0392A-F8F1-4D2B-B79B-005B23D8CCA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AE0392A-F8F1-4D2B-B79B-005B23D8CCA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3346652-1336-4713-8348-713C3FBDE127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3346652-1336-4713-8348-713C3FBDE127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3346652-1336-4713-8348-713C3FBDE127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3346652-1336-4713-8348-713C3FBDE127}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
