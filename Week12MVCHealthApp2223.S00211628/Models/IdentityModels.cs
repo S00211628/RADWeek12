@@ -21,7 +21,7 @@ namespace Week12MVCHealthApp2223.S00211628.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("Week12HealthConnectionString", throwIfV1Schema: false)
+            : base("Week12HealthConnectionString", throwIfV1Schema: false) 
         {
         }
 
