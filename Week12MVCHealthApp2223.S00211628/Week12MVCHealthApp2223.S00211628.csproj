@@ -192,6 +192,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PatientsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -206,6 +207,26 @@
     <Compile Include="Migrations\202212151736504_adding roles and users.cs" />
     <Compile Include="Migrations\202212151736504_adding roles and users.designer.cs">
       <DependentUpon>202212151736504_adding roles and users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202212151948080_adding doctor roles.cs" />
+    <Compile Include="Migrations\202212151948080_adding doctor roles.designer.cs">
+      <DependentUpon>202212151948080_adding doctor roles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202212151953454_test 2.cs" />
+    <Compile Include="Migrations\202212151953454_test 2.designer.cs">
+      <DependentUpon>202212151953454_test 2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202212151956275_debugg.cs" />
+    <Compile Include="Migrations\202212151956275_debugg.designer.cs">
+      <DependentUpon>202212151956275_debugg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202212151957550_test 5.cs" />
+    <Compile Include="Migrations\202212151957550_test 5.designer.cs">
+      <DependentUpon>202212151957550_test 5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202212151959304_test 6.cs" />
+    <Compile Include="Migrations\202212151959304_test 6.designer.cs">
+      <DependentUpon>202212151959304_test 6.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -270,6 +291,11 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Patients\Create.cshtml" />
+    <Content Include="Views\Patients\Delete.cshtml" />
+    <Content Include="Views\Patients\Details.cshtml" />
+    <Content Include="Views\Patients\Edit.cshtml" />
+    <Content Include="Views\Patients\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -302,6 +328,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202212151736504_adding roles and users.resx">
       <DependentUpon>202212151736504_adding roles and users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212151948080_adding doctor roles.resx">
+      <DependentUpon>202212151948080_adding doctor roles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212151953454_test 2.resx">
+      <DependentUpon>202212151953454_test 2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212151956275_debugg.resx">
+      <DependentUpon>202212151956275_debugg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212151957550_test 5.resx">
+      <DependentUpon>202212151957550_test 5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212151959304_test 6.resx">
+      <DependentUpon>202212151959304_test 6.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
